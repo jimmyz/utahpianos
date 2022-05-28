@@ -1,0 +1,530 @@
+
+body {
+    background-color: #eeeeee;
+}
+body p {
+    margin: auto;
+}
+h1, h2, h3, h4, h5, p,  {
+    font-family: Oswald, sans-serif;
+    color: #373435;
+}
+h3 {
+    font-family: Oswald, sans-serif;
+}
+a{
+    font-family: Oswald, sans-serif;
+    font-size: 1em;
+}.myMainMenu a {
+    color: #373435; 
+}
+.menu a {
+    color: #373435;
+}
+.menu a:hover {
+    color: #645E60;
+    text-decoration: none;
+}
+.menu a:focus {
+    color: #B48C00;
+}
+#sixth a {
+    color: #1975C5;
+    font-family: Noto Sans JP, sans-serif;
+}
+#sixth a:visited {
+    color: #B48C00;
+}
+#sixth a:hover {
+    color: #3AA3FF; 
+}
+h2 {
+    font-size: 2em;
+    font-weight: bold;
+    text-align: center;
+}
+h3 {
+    font-size: 1.125em;
+    text-align: center;
+    font-weight: bold;
+}
+section.border {
+    border-top: 3px solid #373435 !important;
+    border-left: 0px solid #373435 !important;
+    border-right: 0px solid #373435 !important;
+    border-bottom: 0px solid #373435 !important;
+}
+
+section h2 {
+    font-family: Oswald, sans-serif;
+    font-weight: bold;
+}
+#first {
+    position: relative;
+    background-image: url(/assets/img/web-ready-images/other-images/pianist-by-the-window.jpg);
+    background-size: cover;
+    height: 200px;
+    background-position: center;
+    margin-top: 72px;
+}
+.hero-image h1 {
+    text-align: center;
+    color: #ffffff;
+    margin: auto;
+}
+.seal-container {
+    position: absolute;
+    bottom: -29px;
+    right: 0px;
+    width: 108px;
+    z-index: 1;
+}
+section h2 {
+    margin: 32px 0px 24px 0px;
+}
+section p {
+    font-family: Noto Sans JP, sans-serif;
+}
+section#second h2:first-of-type {
+    margin-top: 56px;
+    margin-bottom: 24px;
+}
+#second {
+    position: relative;
+    background-color: #eeeeee;
+}
+#second h3 {
+    margin-bottom: 32px;
+}
+
+#second .pianoBrandsContainer .brandbox-container {
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    height: 334px;
+}
+#second .pianoBrandsContainer .brandbox-container .piano {
+    position: relative;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 48px;
+
+}
+#second .pianoBrandsContainer .brandbox-container .brandBox {
+    position: absolute;
+    height: 313px;
+    width: 290px;
+    margin: auto;
+    background-image: linear-gradient(to bottom, #373435 43%, #eeeeee );
+    background-color: #373435;
+    border-radius: 16px 16px 0px 0px;
+    padding-top: 13px;
+    left: 50%;
+    transform: translateX(-50%);  
+}
+#second .pianoBrandsContainer .brandbox-container .brandBox .logo-container {
+    position: relative;
+    margin: auto;
+    background-color: #eeeeee;
+    width: 260px;
+    height: 96px;
+    line-height: 96px;
+    text-align: center; 
+    border-radius: 8px;
+}
+#second .pianoBrandsContainer .brandbox-container .brandBox .logo-container img {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    bottom: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+}
+
+#third {
+    position: relative;
+    background-image: url(/assets/img/web-ready-images/other-images/playing-piano.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 377px;
+    width: 100%;
+    z-index: 1;
+}
+#third h2 {
+    color: #eeeeee;
+}
+iframe {
+    width: 100%;
+    height: 210px;
+    margin: auto;
+    border: 6px solid #373435;
+    box-sizing: border-box;
+}
+/*END third*/
+/*fourth*/
+#fourth {
+    position: relative;
+    background-color: #eeeeee;
+    
+}
+#fourth {
+    margin: auto;
+    width: 100%;
+}
+.signature {
+    width: 200px;
+}
+#sixth {
+    position: relative;
+    background-color: #eeeeee;
+}
+.paragraph {
+    padding-left: 5%;
+    padding-right: 5%;
+    margin: auto;
+    padding-bottom: 32px;
+} 
+    
+
+
+ /*********Gallery Styles**********/  
+#fifth {
+    padding-bottom: 80px;
+    font-family: Oswald, sans-serif;
+    background-color: #373435;
+}
+#fifth p, #fifth div {
+    font-family: Oswald, sans-serif;
+}
+#fifth h2 {
+    color: #eeeeee;
+}
+#fifth h3 {
+    font-family: Oswald, sans-serif;
+    color: #eeeeee;
+    padding-bottom: 32px;
+}
+
+/* Position the image container (needed to position the left and right arrows) */
+
+.container.galleryContainer {
+    width: 100%;
+    margin: auto;
+    padding: 0;
+    position: relative;
+}
+/* Hide the images by default */
+.mySlides {
+  display: none;
+}
+
+/* Add a pointer when hovering over the thumbnail images */
+.cursor {
+  cursor: pointer;
+}
+
+/*Change arrow color*/
+.container a.next, .container a.prev {
+    color: #eeeeee;
+}
+.container a.next:hover, .container a.prev:hover {
+    color: #B48C00;
+}
+/* Next & previous buttons */
+.prev,
+.next {
+  cursor: pointer;
+  position: absolute;
+  top: 40%;
+  width: auto;
+  padding: 16px;
+  margin-top: -50px;
+  color: #eeeeee;
+  font-weight: bold;
+  font-size: 20px;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+  -webkit-user-select: none;
+  background-color: rgba(55, 52, 53, 0.8);
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover,
+.next:hover {
+  background-color: rgba(55, 52, 53, 0.8);
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #eeeeee;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* Container for image text */
+.caption-container {
+  text-align: center;
+  background-color: #B48C00;
+  padding: 4px 0px 4px 0px;
+  color: #eeeeee;
+}
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Six columns side by side */
+.column {
+  float: left;
+  width: 16.66%;
+}
+
+/* Add a transparency effect for thumnbail images */
+.demo {
+  opacity: 0.6;
+}
+.active,
+.demo:hover {
+  opacity: 1;
+}
+    
+/********END Gallery Styles********/
+
+.content {
+    position: relative;
+    margin: auto;
+    width: 50%;
+    text-align: center;
+}
+#hiddenTitleBar {
+    display: none;
+    position: absolute;
+    width: 100%;
+    height: 100px;
+    text-align: center;
+    padding: 10px; 
+}
+.spacing {
+    margin-top: 50px;
+}
+.myMainMenu {
+    position: fixed;
+    top: 0;
+    z-index: 2;
+    background-color: #EEEEEE;
+    height: 72px;
+    line-height: 72px;
+    width: 100%;
+    box-shadow: 0px 3px 6px #212529;
+} 
+.myMainMenu .cell {
+    margin: auto;
+    padding: 0;
+}
+.myLogoContainer {
+    position: relative;
+    background-color: #EEEEEE;
+    text-align: center;
+}
+.myLogoContainer img {
+    position: relative;
+    height: 56px;
+}
+#activeMenu {
+    text-align: center;
+}
+.myMenuContainer ul li a {
+    font-size: .875em;
+}
+.phone {
+    text-align: center;
+    margin: auto;
+    font-size: 1.125em;
+    font-weight: bold;
+}
+.mobileMenu .menu {
+    display: inline-flex;
+    position: fixed;
+    bottom: 0;
+    background-color: #EEEEEE;
+    width: 100%;
+    margin: auto;
+    z-index: 2;
+    box-shadow: 0px -1px 6px #212529;
+}
+.mobileMenu .menu li {
+    margin: auto;
+    text-align: center;
+}
+.mobileMenu .menu li a {
+    padding: 14px 0px 13px 0px;
+    margin: 0;
+    font-weight: bold;
+    font-size: .875em;
+}
+.mobileMenu .menu .active > a {
+    border-radius: 0px;
+}
+footer {
+    background-color: #373435 ;
+}
+footer .logo-footer {
+    text-align: center;
+    padding-top: 56px;
+}
+footer .logo-footer img {
+    height: 64px;
+}
+footer .phone {
+    font-family: Oswald, sans-serif;
+    color: #eeeeee;
+    text-align: center;
+    padding-top: 48px;
+    padding-bottom: 16px;
+    font-size: 1.5em;
+    max-width: 80%;
+    margin: auto;
+}
+footer .address {
+    font-family: Oswald, sans-serif;
+    color: #eeeeee;
+    text-align: center;
+    padding-bottom: 72px;
+    font-size: 1.5em;
+    width: 80%;
+    margin: auto;
+}
+footer .copyright {
+    font-family: Oswald, sans-serif;
+    color: #eeeeee;
+    text-align: center;
+    padding-bottom: 72px; 
+    font-size: 1em;
+}
+
+@media only screen and (min-width: 640px) {
+    
+    h2 {
+        font-size: 3.5em;
+    }
+    section h3 {
+        font-size: 1.5em;
+    }
+    .myMainMenu {
+        width: 100%;
+        z-index: 2;
+        height: 100px;
+        line-height: 100px;
+    
+    }  
+    .myMenuContainer ul li a {
+        font-size: 1em;
+    }
+    #first {
+        height: 600px;
+    }
+    section.border {
+        border-top: 6px solid #373435 !important;
+        border-left: 6px solid #373435 !important;
+        border-right: 6px solid #373435 !important;
+        border-bottom: 0px solid #373435 !important;
+    }
+    #second {
+        padding-bottom: 0px;
+    }
+    #second h3 {
+        margin-bottom: 56px; 
+    }
+    #second .pianoBrandsContainer .brandbox-container {
+        padding-bottom: 0px;
+    }
+    .hero-image {
+        position: relative;
+        height: 650px;
+        width: 100%;
+    }
+    .seal-container {
+        position: absolute;
+        bottom: -68px;
+        right: 0px;
+        width: 300px;
+        height: auto;
+    }
+    #third {
+        height: 700px;
+        width: 100%;
+    }
+    .iframeContainer {
+        height: 450px; 
+        width: 700px;
+        margin: auto;
+        margin-bottom: 88px;  
+    }
+    .iframeContainer iframe {
+        width: 100%;
+        height: 100%;
+    }
+    #fourth .process img {
+        width: 30%;
+    }
+    .container.galleryContainer {
+        width: 60%;
+    }
+    .paragraph {
+        padding-left: 20%;
+        padding-right: 20%;
+        margin: auto;
+        padding-bottom: 80px;
+    } 
+
+    footer .address {
+        width: 40%;
+    }
+}
+
+@media screen and (min-width: 1023px) { 
+    .myLogoContainer img {
+        position: relative;
+        margin: auto;
+        height: 92px; 
+    }
+    .myMainMenu {
+        height: 133px;
+        line-height: 130px;
+    }
+    .myMenuContainer ul {
+        text-align: center;
+    }
+    #first {
+        height: 750px;
+    }
+    #second {
+        padding-bottom: 0px;
+    }
+    footer .copyright {
+        padding-bottom: 24px;
+    }
+    .seal-container {
+        right: 0px;
+    }
+    
+}
+@media screen and (min-width: 1366px) {
+    .seal-container {
+        right: 0px;
+    }
+    .container.galleryContainer {
+        width: 45%;
+    }
+}

@@ -1,0 +1,395 @@
+
+/*
+body {
+    display: block;
+    position: relative;
+    background-color: #eeeeee;
+    max-width: 1366px;
+    margin: auto;
+}
+.bodyContainer {
+    width: 100%;
+    margin: auto;
+}
+h1 {
+    
+}
+h2 {
+    font-size: 2em;
+    padding: 32px 0px 32px 0px;
+    color: #373435;
+}
+h3 {
+    font-size: 1.125em;
+    text-align: center;
+}
+body a {
+    font-family: Oswald, sans-serif; 
+}
+body p {
+    font-family: "Noto Sans JP", sans-serif;
+}
+body h2 {
+    font-family: Oswald, sans-serif;
+    text-align: center;
+    font-size: 2em;
+}
+
+
+
+
+
+
+    
+
+
+
+
+#first {
+    display: block;
+    position: relative;
+    border-style: solid;
+    border-width: 4px 4px 2px 4px;
+    height: auto;
+    width: auto;
+}
+#first .seal-container {
+    position: relative;
+    z-index: 2;
+    width: 100%;
+    height: 200px;
+}
+#first .seal-container img {
+    display: block;
+    position: absolute;
+    height: 150px;
+    right: -60px;
+    top: 130px;
+}
+#first .bgContainer {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    
+}
+.hero-image {
+    background: url(/assets/img/web-ready-images/other-images/lady-playing-piano.png);
+    background-size: cover;
+    width: 100%;
+    height: 200px; 
+}
+section {
+    height: auto;
+    border-top: 2px solid #373435; 
+    border-bottom: 2px solid #373435;
+}
+#second {
+    display: inline-block;
+    position: relative;
+    width: 100%;
+    margin: auto;
+    
+}
+section#second h2:first-of-type {
+    padding-top: 56px;
+    padding-bottom: 24px;
+}
+#second h3 {margin-bottom: 32px;}
+
+#second .pianoBrandsContainer .brandbox-container {
+    position: relative;
+    padding-bottom: 48px; 
+    width: 100%;
+}
+#second .pianoBrandsContainer .brandbox-container .brandBox {
+    position: absolute;
+    height: 313px;
+    width: 280px;
+    margin: auto;
+    background-image: linear-gradient(to bottom, #373435 45%, #eeeeee );
+    background-color: #373435;
+    border-radius: 16px 16px 0px 0px;
+    padding-top: 13px;
+    left: 50%;
+    transform: translateX(-50%);
+    
+}
+#second .pianoBrandsContainer .brandbox-container .brandBox .logo-container {
+    position: relative;
+    margin: auto;
+    background-color: #eeeeee;
+    width: 256px;
+    height: 96px;
+    line-height: 96px;
+    text-align: center; 
+    border-radius: 8px;
+}
+#second .pianoBrandsContainer .brandbox-container .brandBox .logo-container img {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    bottom: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+}
+
+
+#second .pianoBrandsContainer .brandbox-container .piano {
+    position: relative;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 280px;
+    padding-top: 160px;
+    
+}
+
+
+
+
+#third {
+    position: relative;
+    background: url(/assets/img/web-ready-images/other-images/playing-piano.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 377px;
+    width: 100%;
+}
+#third h2 {
+    color: #eeeeee;
+}
+#third iframe {
+    margin: 0;
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    height: 220px;
+    border: 6px solid #373435;
+}
+#fourth .process {
+    width: 100%;
+    margin: auto;
+    padding: 16px;
+}
+#fourth .process p {
+    width: 90%;
+    min-width: 300px;
+    margin: auto;
+}
+*/
+
+
+
+
+
+
+/*
+Gallery Styles Start
+*/ 
+
+/*
+.galleryContainer {
+  width: 100%;
+  height: 25em;
+  margin:auto;
+  position: relative;
+  background-color: blue;
+}
+.galleryContainer .carousel {
+  
+    
+}
+.galleryContainer li {
+  width: 300px;
+  height: auto;
+  background: #333;
+  display: inline-block;
+  -webkit-transition: all .3s ease-in-out;
+  -moz-transition: all .3s ease-in-out;
+  transition: all .3s ease-in-out;
+  overflow: hidden;
+  background-color: red;
+  border: 4px solid red;
+}
+
+.galleryContainer .items {
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.galleryContainer .main-pos {
+  margin: auto !important;
+  width: 100%;
+  z-index: 3;
+}
+.galleryContainer .left-pos {
+  opacity: 0;
+  margin-left: -5em !important;
+  z-index: 1;
+  -webkit-transform: scale(.75);
+  -moz-transform: scale(.75);
+  transform: scale(.75);
+}
+.galleryContainer .back-pos {
+  margin-left: 0px !important;
+  opacity: 0;
+  -webkit-transform: scale(.5);
+  -moz-transform: scale(.5);
+  transform: scale(.5);    
+}
+.galleryContainer .right-pos {
+  opacity: 0;
+  margin-left:  20em !important;
+  z-index: 1;
+  -webkit-transform: scale(.75);
+  -moz-transform: scale(.75);
+  transform: scale(.75);
+}
+.galleryContainer .galleryNav {
+  position: absolute;
+  margin: auto;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  bottom: 10%;
+  z-index: 2;
+}
+*/
+
+
+
+
+
+footer {
+    background-color: #373435 ;
+}
+footer .logo-footer {
+    text-align: center;
+    padding-top: 56px;
+    
+}
+footer .logo-footer img {
+    height: 64px;
+}
+footer .phone {
+    font-family: Oswald, sans-serif;
+    color: #eeeeee;
+    text-align: center;
+    padding-top: 48px;
+    padding-bottom: 16px;
+}
+footer .address {
+    font-family: Oswald, sans-serif;
+    color: #eeeeee;
+    text-align: center;
+    padding-bottom: 72px;
+}
+footer .copyright {
+    font-family: Oswald, sans-serif;
+    color: #eeeeee;
+    text-align: center;
+    padding-bottom: 72px; 
+}
+
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (min-width: 600px) {
+    
+
+/*
+    .bodyContainer {
+        max-width: 1366px;
+        margin: auto;
+    }
+    .seal-container {
+        display: block;
+        position: relative;
+        z-index: 2;
+        width: 100%;
+        height: auto;
+        opacity: 50%;
+    }
+    .seal-container img {
+        display: block;
+        position: absolute;
+        height: 300px;
+        right: 100px;
+        bottom: 100px;
+    }
+    #first .bgContainer .hero-image {
+        background-size: cover;
+        height: 650px;
+    }
+*/
+
+
+ 
+
+
+    
+ 
+    
+    
+    
+    
+    
+/*
+gallery    
+    .galleryContainer {
+        width: 800px;
+        height: 25em;
+    }
+    .galleryContainer li {
+        width: 500px;
+        height: 300px;
+    }
+    .galleryContainer .items {
+        left: 18%;
+    }
+    .galleryContainer .left-pos {
+        margin-left: -20em !important;
+    }
+    .galleryContainer .right-pos {
+        margin-left: 20em !important;
+    }
+    .galleryContainer .galleryNav {
+        left: 40%;
+        bottom: 10%;
+    }
+
+*/
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
