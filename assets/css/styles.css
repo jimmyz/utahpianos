@@ -149,7 +149,7 @@ section#second h2:first-of-type {
 
 #third {
     position: relative;
-    background: url(/assets/img/web-ready-images/other-images/playing-piano.png);
+    background: url(assets/img/web-ready-images/other-images/playing-piano.png);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;

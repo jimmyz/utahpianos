@@ -61,7 +61,7 @@ section h2 {
 }
 #first {
     position: relative;
-    background-image: url(/assets/img/web-ready-images/other-images/pianist-by-the-window.jpg);
+    background-image: url(assets/img/web-ready-images/other-images/pianist-by-the-window.jpg);
     background-size: cover;
     height: 200px;
     background-position: center;
@@ -144,7 +144,7 @@ section#second h2:first-of-type {
 
 #third {
     position: relative;
-    background-image: url(/assets/img/web-ready-images/other-images/playing-piano.png);
+    background-image: url(assets/img/web-ready-images/other-images/playing-piano.png);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
